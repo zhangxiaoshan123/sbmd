@@ -20,6 +20,7 @@ public class SbmdApplicationTests {
 	private UserService userService;
 	@Test
 	public void contextLoads() {
+		System.out.println();
 		User user = new User();
 		user.setName("令狐冲");
 		userService.save(user);
