@@ -24,6 +24,7 @@ public class SbmdApplicationTests {
 		User user = new User();
 		user.setName("令狐冲");
 		userService.save(user);
+		System.out.println();
 	}
 	@Test
 	public void getByName() {
